@@ -22,6 +22,7 @@
     ],
     "modules-center": [
 	// 这个模块是shorinNiri相关的常用命令
+    "clock",
 	"custom/actions",
         "custom/wfrec",
         "custom/screenshot",
@@ -31,7 +32,6 @@
         "idle_inhibitor",
         "custom/colorpicker",
         //"power-profiles-daemon",
-        "clock",
         "memory",
         "disk",
         "cpu"

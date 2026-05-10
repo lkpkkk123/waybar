@@ -183,8 +183,8 @@ window#waybar.empty #window {
 /* 菜单 */
 
 #custom-applauncher {
-    font-size: 1.39em; /* 25px */
-    padding: 0px 0.39em; /* 7px */
+    font-size: 1.1em; /* 25px */
+    padding: 0px 0.8em 0px 0.39em; /* 7px */
     margin: 0px;
     color: @primary;
 }
@@ -401,9 +401,12 @@ window#waybar.empty #window {
 #cpu,
 #memory,
 #disk {
-    padding: 0px 0.39em;
+    padding: 0px 0.2em 0px 0.39em;
 }
 
+#memory{
+    margin-left: 0.5em;
+}
 #cpu {
     color: @primary;
 }
