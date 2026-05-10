@@ -397,4 +397,24 @@ window#waybar.empty #window {
     padding: 0px 0.83em; /* 15px */
 }
 
+/* 资源占用 */
+#cpu,
+#memory,
+#disk {
+    padding: 0px 0.39em;
+}
+
+#cpu {
+    color: @primary;
+}
+
+#memory {
+    color: @secondary;
+}
+
+#disk {
+    color: @tertiary;
+}
+
+
 

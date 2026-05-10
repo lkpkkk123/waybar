@@ -27,10 +27,15 @@
         "custom/screenshot",
 	//"custom/wallpapers",
     "custom/clipboard",
+
         "idle_inhibitor",
         "custom/colorpicker",
-        "power-profiles-daemon",
-        "clock"
+        //"power-profiles-daemon",
+        "clock",
+        "memory",
+        "disk",
+        "cpu"
+
         //"clock#date",
         // "custom/cava"
         //  "mpris",
